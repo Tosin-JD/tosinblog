@@ -1,0 +1,8 @@
+
+
+<ul>
+    {% for item in object_list %}
+        <li><a href="{% url 'blog:detail' %}" >{{ item.title }}</a></li>
+    {% endfor %}
+
+</ul>
